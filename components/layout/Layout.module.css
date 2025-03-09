@@ -1,0 +1,36 @@
+.header {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.left a {
+    color: #53c60b;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.right a {
+    margin-left: 15px;
+    color: dimgrey;
+    font-weight: 500;
+}
+
+.container {
+    min-height: 1000px;
+}
+
+@media (max-width: 900px) {
+    .header {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        padding: 10px;
+    }
+}
