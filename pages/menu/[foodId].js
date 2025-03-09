@@ -1,6 +1,7 @@
+import DetailsPage from "@/components/templates/DetailsPage";
+
 export default function FoodDetail({ data }) {
-  console.log(data);
-  return <div>[foodId]</div>;
+  return <DetailsPage data={data} />;
 }
 
 export async function getStaticPaths() {
